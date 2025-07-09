@@ -26,6 +26,11 @@ do {
             pilha.printStack();
             break;
 
+         case 4:
+            pilha.clear();
+            break;
+
+
         default:
             console.log("Opção inválida! Tente novamente.");
             break;
